@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เช็คสภาพอากาศ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body background="picture/weatherbg.jpg">
+
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading" style="text-align: center;">เช็คสภาพอากาศ</h1>
+            <form>
+                <div class="container" style="text-align: center;">
+                    <input type="text" style="text-align: center;" placeholder="ค้นหาเมือง" autofocus>
+                    <br>
+                    <button type="submit">ตกลง</button>
+                    <span class="msg"></span>
+                </div>
+
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+
+
+
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
